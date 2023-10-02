@@ -1,2 +1,7 @@
 .vscode
 *test*
+*working*
+*.o
+Hive.sublime-project
+Hive.sublime-workspace
+School/
