@@ -6,7 +6,7 @@
 /*   By: peitx <peitx@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 16:26:22 by peitx             #+#    #+#             */
-/*   Updated: 2023/10/02 16:44:35 by peitx            ###   ########.fr       */
+/*   Updated: 2023/10/04 17:44:27 by peitx            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_print_alphabet(void)
 	}
 }
 
-void main()
-{
-	ft_print_alphabet();
-}
+// void main()
+// {
+// 	ft_print_alphabet();
+// }
