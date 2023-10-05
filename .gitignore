@@ -2,6 +2,7 @@
 *test*
 *working*
 *.o
+*.out
 Hive.sublime-project
 Hive.sublime-workspace
 School/
