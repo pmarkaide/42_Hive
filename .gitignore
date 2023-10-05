@@ -5,4 +5,5 @@
 *.out
 Hive.sublime-project
 Hive.sublime-workspace
+*workspace
 School/
