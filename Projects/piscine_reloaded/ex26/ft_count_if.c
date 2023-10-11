@@ -6,7 +6,7 @@
 /*   By: pmarkaide <pmarkaid@student.hive.fi>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 11:20:40 by pmarkaide         #+#    #+#             */
-/*   Updated: 2023/10/11 12:01:02 by pmarkaide        ###   ########.fr       */
+/*   Updated: 2023/10/11 16:56:01 by pmarkaide        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,16 +43,18 @@ int ft_count_if(char **tab, int (*f)(char*))
 {
     int i = 0;
     int t = 0;
-    while(tab[i][0] != '0'){ // Use '0' as the sentinel character
-        t += f(tab[i]);
-        i++;
-    }
+    while (tab[i])
+	{
+		if (f(tab[i]))
+			t++;
+		i++;
+	}
     return t;
 }
 
 int main(int argc, char const *argv[])
 {
-    char *arr[] = {"Helooolo0", "World0", "Hiveeee0", "Tesst0", "1230", "0"};
+    char *arr[] = {"Helooolo0", "World0", "Hiveeee0", "Tesst0", "1230", NULL};
     int result = ft_count_if(arr, moreVowels);
     printf("Number of strings with more vowels: %d\n", result);
     return 0;
