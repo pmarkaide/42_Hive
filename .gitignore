@@ -7,5 +7,6 @@ Hive.sublime-project
 Hive.sublime-workspace
 *workspace
 School/
-Projects/piscine_reloaded/ex23
-Projects/piscine_reloaded/ex24
+Projects/piscine/subjects/
+Projects/piscine_reloaded/piscine-reloaded.pdf
+.DS_Store
